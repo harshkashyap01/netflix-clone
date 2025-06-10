@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+    
+   
+}
+.seprationline{
+    background-color: gray;
+    height: 5px;
+    width: auto;
+}
+
+div.main {
+    height: 645px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(bg.jpg);
+    background-blend-mode: darken;
+
+    background-color: rgba(0, 0, 0, 0.493) ;
+    position: relative;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+nav {
+    height: 100px;
+    width: 78vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 10;
+}
+.btn{
+    color: white;
+    border: 0.5px solid white;
+    padding: 3px 28px;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: black;
+}
+.btn-red{
+    background-color: red  ;
+    margin-right: 15px;
+    border: none ;
+    padding: 5px 20px;
+}
+.text{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+   
+  
+}
+.text1{
+      margin-top: 200px;
+   font-size: 38px;
+   font-weight: bolder; 
+   color: white;
+
+
+}
+.text2{
+      margin-top: 20px;
+   font-size: large;
+   font-weight: bolder; 
+
+}
+.text3{
+      margin-top: 20px;
+   font-size: medium;
+   font-weight:normal; 
+
+}
+
+.btn2{
+ align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+   
+      
+   
+}
+.redbtn{
+ padding: 10px 40px;
+      font-size: 25px;
+      border: 2px solid white;
+      border-radius: 12px;
+      background-color: red;
+      color: white;
+   
+     
+  
+    
+}
+.whitebtn{
+      padding: 10px 125px;
+      font-size: 25px;
+      border: 2px solid white;
+      border-radius: 12px;
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+
+}
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+.secImg {
+    position: relative;
+}
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+@media screen and (maxwidth: 1300px) {
+    
+    
+}
